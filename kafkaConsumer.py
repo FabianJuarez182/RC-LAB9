@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Configuración del servidor Kafka y del consumidor
 KAFKA_SERVER = 'lab9.alumchat.lol:9092'
-TOPIC_NAME = '21440'  # Cambia este valor por tu número de carné si aún no lo has hecho
+TOPIC_NAME = '21440'  
 
 consumer = Consumer({
     'bootstrap.servers': KAFKA_SERVER,
