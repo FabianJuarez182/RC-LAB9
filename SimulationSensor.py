@@ -5,7 +5,7 @@ from confluent_kafka import Producer
 
 # Configuración del servidor Kafka
 KAFKA_SERVER = 'lab9.alumchat.lol:9092'
-TOPIC_NAME = '21440_21469'
+TOPIC_NAME = '21440'
 
 # Configuración del productor de Kafka
 producer = Producer({
